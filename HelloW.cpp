@@ -2,7 +2,7 @@
 
 int main() {
     // Displaying the message
-    printf("Hello, World!\n");
+    printf("Hello, GitHub Actions!\n");
 
     // Return 0 to indicate successful completion
     return 0;
