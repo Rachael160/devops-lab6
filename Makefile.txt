@@ -4,8 +4,8 @@ CXXFLAGS = -Wall
 
 all: $(TARGET)
 
-$(TARGET): hello.cpp
-	$(CXX) $(CXXFLAGS) -o $(TARGET) hello.cpp
+$(TARGET): HelloW.cpp
+	$(CXX) $(CXXFLAGS) -o $(TARGET) HelloW.cpp
 
 clean:
 	rm -f $(TARGET)
