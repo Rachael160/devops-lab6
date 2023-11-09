@@ -1,4 +1,4 @@
-TARGET = hello
+TARGET = HelloW
 CXX = g++
 CXXFLAGS = -Wall
 
