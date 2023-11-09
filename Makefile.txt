@@ -1,0 +1,11 @@
+TARGET = hello
+CXX = g++
+CXXFLAGS = -Wall
+
+all: $(TARGET)
+
+$(TARGET): hello.cpp
+	$(CXX) $(CXXFLAGS) -o $(TARGET) hello.cpp
+
+clean:
+	rm -f $(TARGET)
